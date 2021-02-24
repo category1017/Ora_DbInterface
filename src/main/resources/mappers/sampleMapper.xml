@@ -20,7 +20,8 @@ update member set
 userpw = #{userpw},
 username = #{username},
 email = #{email},
-updatedate = sysdate
+regdate = #{regdate},
+updatedate = #{updatedate}
 where userid = #{userid}
 </update>
 <delete id="memberDelete">
